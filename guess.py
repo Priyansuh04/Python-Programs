@@ -11,11 +11,14 @@
 #         print("condition is not true")
 
 
-s = {1,2,3,4,5}
-lst =list(s)
-print(lst)
-lst.append(6)
-print(lst)
-print(s)
-new_set = set(lst)
-print(new_set)
+# s = {1,2,3,4,5}
+# lst =list(s)
+# print(lst)
+# lst.append(6)
+# print(lst)
+# print(s)
+# new_set = set(lst)
+# print(new_set)
+
+d ={x:[x*y for y in range(1,6)] for x in range(1,6)}
+print(d)
