@@ -20,5 +20,8 @@
 # new_set = set(lst)
 # print(new_set)
 
-d ={x:[x*y for y in range(1,6)] for x in range(1,6)}
-print(d)
+# d ={x:[x*y for y in range(1,6)] for x in range(1,6)}
+# print(d)
+from package.math import * 
+from package.subpackage.mult import multiply
+multiply(2,3)
